@@ -1,0 +1,2075 @@
+{
+        "intents": [
+                {
+                        "tag": "greeting",
+                        "patterns": [
+                                "Hi there",
+                                "How are you",
+                                "Is anyone there?",
+                                "Hey",
+                                "Hola",
+                                "Hello",
+                                "Good day"
+                        ],
+                        "responses": [
+                                "Hello, thanks for asking",
+                                "Good to see you again",
+                                "Hi there, how can I help?"
+                        ],
+                        "context": [
+                                ""
+                        ]
+                },
+                {
+                        "tag": "goodbye",
+                        "patterns": [
+                                "Bye",
+                                "See you later",
+                                "Goodbye",
+                                "Nice chatting to you, bye",
+                                "Till next time"
+                        ],
+                        "responses": [
+                                "See you!",
+                                "Have a nice day",
+                                "Bye! Come back again soon."
+                        ],
+                        "context": [
+                                ""
+                        ]
+                },
+                {
+                        "tag": "thanks",
+                        "patterns": [
+                                "Thanks",
+                                "Thank you",
+                                "That's helpful",
+                                "Awesome, thanks",
+                                "Thanks for helping me"
+                        ],
+                        "responses": [
+                                "Happy to help!",
+                                "Any time!",
+                                "My pleasure"
+                        ],
+                        "context": [
+                                ""
+                        ]
+                },
+                {
+                        "tag": "noanswer",
+                        "patterns": [],
+                        "responses": [
+                                "Sorry, can't understand you",
+                                "Please give me more info",
+                                "Not sure I understand"
+                        ],
+                        "context": [
+                                ""
+                        ]
+                },
+                {
+                        "tag": "options",
+                        "patterns": [
+                                "How you could help me with ISI?",
+                                "What ISI can do for me?",
+                                "What help does ISI provide?",
+                                "How ISI can be helpful?",
+                                "What support does ISI offer?"
+                        ],
+                        "responses": [
+                                "I can guide you about the various services and programs at ISI!",
+                                "I can help you get information about ISI's offerings and how they can benefit you!",
+                                "Basically, I was built to assist you in understanding ISI's services and how they can enhance your experience!"
+                        ],
+                        "context": [
+                                ""
+                        ]
+                },
+                {
+                        "tag": "isi_curriculum_intro",
+                        "patterns": [
+                                "Tell me about the ISI curriculum.",
+                                "Introduce the curriculum of ISI"
+                        ],
+                        "responses": [
+                                "The ISI curriculum aims to develop independent, creative, and critical thinkers. We nurture students' natural desire to explore and learn."
+                        ],
+                        "context": [
+                                ""
+                        ]
+                },
+                {
+                        "tag": "isi_curriculum_intro",
+                        "patterns": [
+                                "What is ISI's approach to education?"
+                        ],
+                        "responses": [
+                                "At ISI, we focus on fostering independent thinking and creativity in our students through our unique teaching methods."
+                        ],
+                        "context": [
+                                ""
+                        ]
+                },
+                {
+                        "tag": "isi_curriculum_intro",
+                        "patterns": [
+                                "How does ISI develop independent thinkers?"
+                        ],
+                        "responses": [
+                                "Our goal at ISI is to educate students who are not just learners but also independent thinkers."
+                        ],
+                        "context": [
+                                ""
+                        ]
+                },
+                {
+                        "tag": "isi_curriculum_intro",
+                        "patterns": [
+                                "Can you explain ISI's teaching methods?"
+                        ],
+                        "responses": [
+                                "ISI's teaching methods are designed to encourage students to explore, implement, and learn independently."
+                        ],
+                        "context": [
+                                ""
+                        ]
+                },
+                {
+                        "tag": "isi_curriculum_intro",
+                        "patterns": [
+                                "What systems does ISI have in place for students' development?"
+                        ],
+                        "responses": [
+                                "ISI's education is tailored to meet the developmental needs of our students."
+                        ],
+                        "context": [
+                                ""
+                        ]
+                },
+                {
+                        "tag": "diplomas_offered",
+                        "patterns": [
+                                "Tell me about ISI's diploma programs?",
+                                "What types of diplomas does ISI offer?",
+                                "what are the degrees offered at isi?"
+                        ],
+                        "responses": [
+                                "ISI offers two types of high school diplomas: the Lebanese Baccalaureate and the Foreign System (FS) curriculum."
+                        ],
+                        "context": [
+                                ""
+                        ]
+                },
+                {
+                        "tag": "diplomas_offered",
+                        "patterns": [
+                                "Can you explain the Lebanese Baccalaureate program at ISI?"
+                        ],
+                        "responses": [
+                                "The Lebanese Baccalaureate program prepares students for Lebanese government exams and various fields such as law, engineering, and medicine."
+                        ],
+                        "context": [
+                                ""
+                        ]
+                },
+                {
+                        "tag": "diplomas_offered",
+                        "patterns": [
+                                "What is the Foreign System (FS) curriculum at ISI?"
+                        ],
+                        "responses": [
+                                "The Foreign System (FS) curriculum is designed for university admission in the USA and other countries not requiring Arabic as a first language."
+                        ],
+                        "context": [
+                                ""
+                        ]
+                },
+                {
+                        "tag": "diplomas_offered",
+                        "patterns": [
+                                "Do all students at ISI follow the same curriculum?"
+                        ],
+                        "responses": [
+                                "Regardless of the chosen program, all students follow a customized curriculum with a focus on the Lebanese curriculum as its core."
+                        ],
+                        "context": [
+                                ""
+                        ]
+                },
+                {
+                        "tag": "isi_code_of_conduct_intro",
+                        "patterns": [
+                                "What is ISI's Code of Conduct?"
+                        ],
+                        "responses": [
+                                "ISI has a Code of Conduct based on the values of respect, accountability, autonomy, empathy, and honesty."
+                        ],
+                        "context": [
+                                ""
+                        ]
+                },
+                {
+                        "tag": "isi_code_of_conduct_intro",
+                        "patterns": [
+                                "How does ISI promote ethical behavior among students?"
+                        ],
+                        "responses": [
+                                "Our school believes in teaching manners to help students adopt ethical values that stay with them throughout life."
+                        ],
+                        "context": [
+                                ""
+                        ]
+                },
+                {
+                        "tag": "isi_code_of_conduct_intro",
+                        "patterns": [
+                                "What are the core values of ISI's Code of Conduct?"
+                        ],
+                        "responses": [
+                                "The core principles of ISI's Code of Conduct include showing respect to oneself, others, and the environment, demonstrating accountability, being reliable and truthful at all times, and treating others as you would like to be treated."
+                        ],
+                        "context": [
+                                ""
+                        ]
+                },
+                {
+                        "tag": "isi_kindergarten_overview",
+                        "patterns": [
+                                "Tell me about ISI's kindergarten programs.",
+                                "What is the goal of ISI's kindergarten?",
+                                "How does ISI promote child development in kindergarten?",
+                                "What approach does ISI take in educating young children?"
+                        ],
+                        "responses": [
+                                "In kindergarten at ISI, our goal is to foster the holistic development of each child.Our programs are designed to promote cognitive, social, emotional, psychological, and physical growth in young children. We believe that young children are like scientists, capable of grasping information, generating theories, testing them, and building knowledge as they explore the world."
+                        ],
+                        "context": [
+                                ""
+                        ]
+                },
+                {
+                        "tag": "parents_vital_role",
+                        "patterns": [
+                                "What role do parents play in their children's education?",
+                                "Tell me about the importance of parental involvement in education.",
+                                "How can parents contribute to their children's success at school?",
+                                "what is the role of parents in isi?"
+                        ],
+                        "responses": [
+                                "Parents play a vital role in their children's education as it significantly contributes to their success at school."
+                        ],
+                        "context": [
+                                ""
+                        ]
+                },
+                {
+                        "tag": "parents_vital_role",
+                        "patterns": [
+                                "What tools does ISI provide for parent-teacher communication?"
+                        ],
+                        "responses": [
+                                "ISI provides unique mobile apps that facilitate instant communication and updates between parents, teachers, and school administrators regarding student progress.",
+                                "Our mobile app also incorporates intelligent modules for deep learning analytics, identifying students at risk and endorsing skills, among other functions."
+                        ],
+                        "context": [
+                                ""
+                        ]
+                },
+                {
+                        "tag": "isi_learning_methods",
+                        "patterns": [
+                                "Tell me about ISI's approach to learning."
+                        ],
+                        "responses": [
+                                "At ISI, we follow a concept-based competency-driven approach to learning."
+                        ],
+                        "context": [
+                                ""
+                        ]
+                },
+                {
+                        "tag": "isi_learning_methods",
+                        "patterns": [
+                                "What is the learning methodology used at ISI?"
+                        ],
+                        "responses": [
+                                "Our learning approach is based on the 'Know-Do-Understand' model, which includes Content (Know), Curricular Competencies (Do), and Big Ideas (Understand)."
+                        ],
+                        "context": [
+                                ""
+                        ]
+                },
+                {
+                        "tag": "isi_learning_methods",
+                        "patterns": [
+                                "Explain the 'Know-Do-Understand' model in ISI's learning approach."
+                        ],
+                        "responses": [
+                                "Content refers to essential topics and knowledge at each grade level, Curricular Competencies include the skills and processes students develop, and Big Ideas consist of enduring generalizations and principles."
+                        ],
+                        "context": [
+                                ""
+                        ]
+                },
+                {
+                        "tag": "isi_learning_methods",
+                        "patterns": [
+                                "How are curricular competencies and big ideas integrated into the learning process at ISI?"
+                        ],
+                        "responses": [
+                                "Content refers to essential topics and knowledge at each grade level, Curricular Competencies include the skills and processes students develop, and Big Ideas consist of enduring generalizations and principles."
+                        ],
+                        "context": [
+                                ""
+                        ]
+                },
+                {
+                        "tag": "isi_learning_methods",
+                        "patterns": [
+                                "Explain the 'Know-Do-Understand' model in ISI's learning approach."
+                        ],
+                        "responses": [
+                                "This approach helps students develop a deep understanding of key concepts and skills that contribute to future learning and understanding."
+                        ],
+                        "context": [
+                                ""
+                        ]
+                },
+                {
+                        "tag": "parental_responsibilities",
+                        "patterns": [
+                                "What are the responsibilities of parents at ISI?"
+                        ],
+                        "responses": [
+                                "Parents at ISI have several responsibilities, including scheduling a meeting with the IT team to download ISI's mobile apps, checking school notifications, monitoring their child's agenda, ensuring their child is prepared for class, reviewing their child's report card, attending parent-teacher conferences, and more."
+                        ],
+                        "context": [
+                                ""
+                        ]
+                },
+                {
+                        "tag": "parental_responsibilities",
+                        "patterns": [
+                                "Can you explain what parents are expected to do regarding ISI's mobile apps?"
+                        ],
+                        "responses": [
+                                "To stay informed, parents should check school notifications sent through the school's mobile app or WhatsApp."
+                        ],
+                        "context": [
+                                ""
+                        ]
+                },
+                {
+                        "tag": "parental_responsibilities",
+                        "patterns": [
+                                "How should parents check their child's agenda and report card?"
+                        ],
+                        "responses": [
+                                "Parents should regularly check their child's agenda and carefully review their child's report card, paying attention to remarks and actions."
+                        ],
+                        "context": [
+                                ""
+                        ]
+                },
+                {
+                        "tag": "parental_responsibilities",
+                        "patterns": [
+                                "What should parents do if their child has allergies or health issues?"
+                        ],
+                        "responses": [
+                                "If their child has allergies or health issues, parents should notify the Head of Department (HOD) and provide details, including medication name and dosage."
+                        ],
+                        "context": [
+                                ""
+                        ]
+                },
+                {
+                        "tag": "school_schedule",
+                        "patterns": [
+                                "What is the daily school schedule at ISI?",
+                                "When does school start and end on regular days?"
+                        ],
+                        "responses": [
+                                "At ISI, the school starts daily at 8:00 a.m. and ends at 2:15 p.m., except on Fridays when school is dismissed at 1:30 p.m. The school closes its doors on Saturdays and Sundays. Additionally, there are two fixed periods referred to as QUIZ PERIODS (QPs) on Tuesdays and Thursdays, and Support Periods (SPs) on Mondays and Wednesdays."
+                        ],
+                        "context": [
+                                ""
+                        ]
+                },
+                {
+                        "tag": "school_schedule",
+                        "patterns": [
+                                "Tell me about the breaks during the school day."
+                        ],
+                        "responses": [
+                                "There are two breaks during the school day where students can purchase food items from the school cafeteria."
+                        ],
+                        "context": [
+                                ""
+                        ]
+                },
+                {
+                        "tag": "school_schedule",
+                        "patterns": [
+                                "How long are the teaching periods at ISI?"
+                        ],
+                        "responses": [
+                                "Each teaching period at ISI is typically 45 - 60 minutes long."
+                        ],
+                        "context": [
+                                ""
+                        ]
+                },
+                {
+                        "tag": "behavior_guidelines",
+                        "patterns": [
+                                "What are the behavior guidelines for students at ISI?"
+                        ],
+                        "responses": [
+                                "Students at the International School of Innovation must adhere to the following behavior guidelines: Respect and obey teachers, supervisors, and administration.Use appropriate language. Respect each other's property.- Avoid eating or drinking in classrooms.Refrain from bullying, fighting, wrestling, rough play, or any behavior that may cause physical harm to themselves or others.Avoid eating or drinking in classrooms"
+                        ],
+                        "context": [
+                                ""
+                        ]
+                },
+                {
+                        "tag": "behavior_guidelines",
+                        "patterns": [
+                                "the rules for using electronic devices at school?"
+                        ],
+                        "responses": [
+                                "Obtain prior permission to use cameras, laptops, phones, or any other devices at school."
+                        ],
+                        "context": [
+                                ""
+                        ]
+                },
+                {
+                        "tag": "behavior_guidelines",
+                        "patterns": [
+                                "How should students treat school property and each other's property?"
+                        ],
+                        "responses": [
+                                "- Respect each other's property."
+                        ],
+                        "context": [
+                                ""
+                        ]
+                },
+                {
+                        "tag": "school_uniform",
+                        "patterns": [
+                                "What are the school uniform requirements at ISI?",
+                                "Can you explain the rules for wearing caps or headgear?",
+                                "What are the guidelines for shoes at ISI?",
+                                "What are the rules for boys' hairstyles and accessories?",
+                                "What are the guidelines for girls' appearance, including hair and makeup?",
+                                "Do I have to wear a uniform?"
+                        ],
+                        "responses": [
+                                "Students at ISI are required to adhere to the following school uniform policies: 1- Wear the school uniform during school hours, activities, and on all school trips.Do not wear caps or headgear unless specified by the administration.On non-sports days, only dark-colored shoes (black, dark blue, or gray) are allowed. Tennis shoes should be worn on sports days.Boys are not permitted to wear long hair or dye it. Hairstyles must be appropriate for school, and earrings are not allowed for boys.Girls are not allowed to dye their hair, wear their hair down, put on makeup, or use nail polish.The school uniform must be purchased directly from the school uniform store before the start of the school year. Please contact school administration for more details."
+                        ],
+                        "context": [
+                                ""
+                        ]
+                },
+                {
+                        "tag": "school_uniform",
+                        "patterns": [
+                                "How can students obtain the school uniform?"
+                        ],
+                        "responses": [
+                                "The school uniform must be purchased directly from the school uniform store before the start of the school year. Please contact school administration for more details."
+                        ],
+                        "context": [
+                                ""
+                        ]
+                },
+                {
+                        "tag": "banned_items",
+                        "patterns": [
+                                "What items are banned in school?"
+                        ],
+                        "responses": [
+                                "The school prohibits the following items, and if found, they may not be returned:Smartphones, if found during the school day, will be kept at the school until the end of the week.Sharp objects such as knives, fireworks, smoke bombs, stink bombs, water guns, and rubber-band guns.Cigarettes, matches, lighters, or chewing gum.Laser guns, pointers, Tippex, permanent markers, and playing cards.Magazines, drives, CDs with inappropriate content or language.Any other material that is not mentioned above but was clearly instructed by the supervisor during school that it is prohibited."
+                        ],
+                        "context": [
+                                ""
+                        ]
+                },
+                {
+                        "tag": "banned_items",
+                        "patterns": [
+                                "Can you explain the school's policy on smartphones?"
+                        ],
+                        "responses": [
+                                "- Smartphones, if found during the school day, will be kept at the school until the end of the week."
+                        ],
+                        "context": [
+                                ""
+                        ]
+                },
+                {
+                        "tag": "banned_items",
+                        "patterns": [
+                                "What sharp objects are prohibited?"
+                        ],
+                        "responses": [
+                                "- Sharp objects such as knives, fireworks, smoke bombs, stink bombs, water guns, and rubber-band guns."
+                        ],
+                        "context": [
+                                ""
+                        ]
+                },
+                {
+                        "tag": "banned_items",
+                        "patterns": [
+                                "Are there restrictions on bringing cigarettes or lighters to school?"
+                        ],
+                        "responses": [
+                                "- Cigarettes, matches, lighters, or chewing gum."
+                        ],
+                        "context": [
+                                ""
+                        ]
+                },
+                {
+                        "tag": "banned_items",
+                        "patterns": [
+                                "What happens if a banned item is found in a student's possession?"
+                        ],
+                        "responses": [
+                                " Cigarettes, matches, lighters, or chewing gum.Magazines, drives, CDs with inappropriate content or language.Any other material that is not mentioned above but was clearly instructed by the supervisor during school that it is prohibited."
+                        ],
+                        "context": [
+                                ""
+                        ]
+                },
+                {
+                        "tag": "assessment_and_grading",
+                        "patterns": [
+                                "How are assessments conducted at ISI?",
+                                "What are the different types of assessments used?"
+                        ],
+                        "responses": [
+                                "Assessments at ISI include announced quizzes held during Quiz Periods (QPs) and unannounced quizzes held during class."
+                        ],
+                        "context": [
+                                ""
+                        ]
+                },
+                {
+                        "tag": "assessment_and_grading",
+                        "patterns": [
+                                "Tell me about the school's grading system.",
+                                "What is the grading policy for homework and projects?"
+                        ],
+                        "responses": [
+                                "The grading system varies by grade level. Graded homework and projects carry the same weight as unannounced quizzes and are scored out of 10."
+                        ],
+                        "context": [
+                                ""
+                        ]
+                },
+                {
+                        "tag": "assessment_and_grading",
+                        "patterns": [
+                                "How are semester exams structured?"
+                        ],
+                        "responses": [
+                                "Cycles 3 & 4 (Grades 7-12) have 4 semester exams, Cycle 2 (Grades 4-5-6) have 2 semester exams (Midterm & Final), while Cycle 1 (Grades 1-2-3) have only one semester exam (Final). Semester Exams are scored out of 100."
+                        ],
+                        "context": [
+                                ""
+                        ]
+                },
+                {
+                        "tag": "exam_and_grading",
+                        "patterns": [
+                                "do grade students have semester exams?",
+                                "how many exams do grade number students have?",
+                                "do grade 1 students have semester exams? How many?"
+                        ],
+                        "responses": [
+                                "Cycles 3 & 4 (Grades 7-12) have 4 semester exams, Cycle 2 (Grades 4-5-6) have 2 semester exams (Midterm & Final), while Cycle 1 (Grades 1-2-3) have only one semester exam (Final). Semester Exams are scored out of 100."
+                        ],
+                        "context": [
+                                ""
+                        ]
+                },
+                {
+                        "tag": "assessment_and_grading",
+                        "patterns": [
+                                "What are the different types of assessments used?"
+                        ],
+                        "responses": [
+                                "Announced quizzes (QPs) have triple the weight of unannounced quizzes. There are two fixed QPs per week with two support periods prior to QPs."
+                        ],
+                        "context": [
+                                ""
+                        ]
+                },
+                {
+                        "tag": "assessment_and_grading",
+                        "patterns": [
+                                "How are assessments and grading structured at ISI?",
+                                "Tell me about the school's semester system.",
+                                "What is the weightage of each semester in the overall grade?",
+                                "How long is each semester, and what is the distribution of the grading percentage?"
+                        ],
+                        "responses": [
+                                "At ISI, assessments and grading are structured as follows:The school year is divided into four semesters: semester 1, semester 2 (midterm), semester 3, and semester 4 (final semester).Each semester is approximately 8 weeks long.Semester 1 and 3 together contribute 40% to the overall grade, with midterm and final semester accounting for the remaining 60% divided equally.Announced quizzes are held during Quiz Periods (QPs) every two weeks, covering materials from the preceding two-week period, similar to the bi-weekly review worksheets.Semester Exams are scheduled during the last two weeks of each semester and cover all the objectives for that semester.The QPs have the SAME SCHEDULE throughout the year, but the subjects to be quizzed on change from one week to another.",
+                                "Announced quizzes are held during Quiz Periods (QPs) every two weeks, covering materials from the preceding two-week period, similar to the bi-weekly review worksheets"
+                        ],
+                        "context": [
+                                ""
+                        ]
+                },
+                {
+                        "tag": "assessment_and_grading",
+                        "patterns": [
+                                "Can you explain the Quiz Periods (QPs) and semester exams?",
+                                "what doest QP mean?"
+                        ],
+                        "responses": [
+                                "- The QPs have the SAME SCHEDULE throughout the year, but the subjects to be quizzed on change from one week to another.Announced quizzes are held during Quiz Periods (QPs) every two weeks, covering materials from the preceding two-week period, similar to the bi-weekly review worksheets"
+                        ],
+                        "context": [
+                                ""
+                        ]
+                },
+                {
+                        "tag": "assessment_grading_summary",
+                        "patterns": [
+                                "Can you summarize the types of assessments and their weightage at ISI?",
+                                "Tell me about the weightage of announced quizzes.",
+                                "What is the grading system for homework and projects?",
+                                "How many semester exams are there for each cycle?",
+                                "What is the grading scale for KG students?"
+                        ],
+                        "responses": [
+                                "Here is a summary of assessments and their weightage at ISI: Announced Quizzes: Weightage of 30% Unannounced Quizzes: Weightage of 10% Semester Exams: Weightage of 100% Homework / Project / Applied Activity: Weightage of 10% For Cycle 3&4, there are 4 semester exams. For Cycle 2, there are 2 semester exams. For Cycle 1, there is 1 semester exam. KG students have 1 exam.",
+                                "The grading scale and weightage may vary by grade level."
+                        ],
+                        "context": [
+                                ""
+                        ]
+                },
+                {
+                        "tag": "assessment_grading_summary",
+                        "patterns": [
+                                "What is the grading scale for KG students?"
+                        ],
+                        "responses": [
+                                "The grading scale and weightage may vary by grade level."
+                        ],
+                        "context": [
+                                ""
+                        ]
+                },
+                {
+                        "tag": "delivery_model_report_cards",
+                        "patterns": [
+                                "Can you explain the delivery model at ISI?",
+                                "How are assessments scheduled during Quiz Periods (QPs)?"
+                        ],
+                        "responses": [
+                                "At ISI, the delivery model includes the following:Fixed Weekly Schedule during Quiz Periods (QPs).Random scheduling during Subject Class Periods.Fixed Schedule for exams at the end of each semester with day breaks in between exams.Fixed Homework Weekly Schedule."
+                        ],
+                        "context": [
+                                ""
+                        ]
+                },
+                {
+                        "tag": "delivery_model_report_cards",
+                        "patterns": [
+                                "Tell me about the coverage of assessments."
+                        ],
+                        "responses": [
+                                "Assessments cover different learning objectives based on the following criteria:For QPs, the assessments cover the learning objective(s) from the last 2 weeks.During subject class periods, assessments cover the learning objective from the last session.Semester exams cover all the learning objectives from the semester (last 8-10 weeks).Homework assessments cover the learning objective(s) from the last week."
+                        ],
+                        "context": [
+                                ""
+                        ]
+                },
+                {
+                        "tag": "delivery_model_report_cards",
+                        "patterns": [
+                                "When are report cards distributed, and what is the process for discussing student progress?"
+                        ],
+                        "responses": [
+                                "Report cards are distributed at the end of each semester, followed by a faculty meeting and an after-school parent-teacher meeting to discuss student progress."
+                        ],
+                        "context": [
+                                ""
+                        ]
+                },
+                {
+                        "tag": "delivery_model_report_cards",
+                        "patterns": [
+                                "What is the criteria for students to be exempted from Semester 4 Exams?"
+                        ],
+                        "responses": [
+                                "Students who achieve a super outstanding average of 94% and above in ANY SUBJECT in Semesters 1, 2, and 3 will be exempted from Semester 4 Exams (Final Exam) in that subject."
+                        ],
+                        "context": [
+                                ""
+                        ]
+                },
+                {
+                        "tag": "grading_criteria",
+                        "patterns": [
+                                "What are the grading criteria at ISI?",
+                                "Can you explain the grading scale?",
+                                "How is student ranking determined?",
+                                "What is the criteria for achieving an 'Outstanding' grade?",
+                                "how many stars do I get if my average is number"
+                        ],
+                        "responses": [
+                                "The grading criteria at ISI are as follows:Grade Percentage (G): The percentage obtained in a subject's assessments.Ranking: Students are ranked based on their grade percentage.Stars: Stars are awarded based on the following criteria:- G ≥ 95: Super Outstanding 5 stat \n- 95 > G ≥ 90: Outstanding 4 star- 90 > G ≥ 80: Excellent 4 star - 80 > G ≥ 70: Good 3 star- 70 > G ≥ 60: Average- 60 > G ≥ 50: PASS (P) 2 star - 50 > G ≥ 0: Not Yet (NY) Students achieving higher percentages receive better rankings and stars."
+                        ],
+                        "context": [
+                                ""
+                        ]
+                },
+                {
+                        "tag": "support_periods",
+                        "patterns": [
+                                "What are Support Periods (SP) at ISI?",
+                                "Can you explain the purpose of Support Periods?"
+                        ],
+                        "responses": [
+                                "Support Periods (SP) at ISI serve the following purpose:Before every Quiz Period (QP), there is a scheduled period dedicated for SUPPORT (Support Period – SP).During the Support Period, Subject Teachers practice with their students a SAMPLE QUIZ similar to the one to be given during the Quiz period the following day.Support Periods are not intended to assist individual students but are intended to give a review and answer any questions related to the upcoming quiz."
+                        ],
+                        "context": [
+                                ""
+                        ]
+                },
+                {
+                        "tag": "support_periods",
+                        "patterns": [
+                                "When are Support Periods scheduled?"
+                        ],
+                        "responses": [
+                                "- Support Periods are scheduled on Mondays & Wednesdays, while Quiz Periods are scheduled on Tuesdays & Thursdays."
+                        ],
+                        "context": [
+                                ""
+                        ]
+                },
+                {
+                        "tag": "support_periods",
+                        "patterns": [
+                                "How do Subject Teachers utilize Support Periods?"
+                        ],
+                        "responses": [
+                                "- On weeks with no Quiz Periods (QPs), school will end early at 1:30 PM."
+                        ],
+                        "context": [
+                                ""
+                        ]
+                },
+                {
+                        "tag": "stage_periods_cycle_1",
+                        "patterns": [
+                                "What are Stage Periods in Cycle 1?",
+                                "How do Stage Periods work for Grades 1?",
+                                "How do Stage Periods work for Grades 2?",
+                                "How do Stage Periods work for Grades 3?",
+                                "How do Stage Periods work for Grades 1-2-3?"
+                        ],
+                        "responses": [
+                                "For Grades 1-2-3 in Cycle 1, there are Stage Periods in addition to Quiz and Support Periods (QPs & SPs).During Stage Periods, students gather in the school theatre and engage in various activities, including fun activities, workshops by external guests or experts on specific topics.The school counselor or other high management personnel can also utilize this period for group workshops, and school contests are scheduled during Stage Periods."
+                        ],
+                        "context": [
+                                ""
+                        ]
+                },
+                {
+                        "tag": "stage_periods_cycle_1",
+                        "patterns": [
+                                "What activities are conducted during Stage Periods?"
+                        ],
+                        "responses": [
+                                "Stage Periods are scheduled once per month, approximately every 4 weeks."
+                        ],
+                        "context": [
+                                ""
+                        ]
+                },
+                {
+                        "tag": "school_schedule",
+                        "patterns": [
+                                "What is the daily schedule at ISI?",
+                                "Can you explain the school timetable?",
+                                "do I have to attend everyday?"
+                        ],
+                        "responses": [
+                                "The daily schedule at ISI is as follows:\nMonday & Tuesday:\nP1: 8:00 AM -> 8:45 AM\nP2: 8:45 AM -> 9:30 AM\nQP1: 8:45 AM -> 9:30 AM\nBREAK 1: 9:30 AM -> 10:00 AM\nP3: 10:00 AM -> 10:45 AM\nP4: 10:45 AM -> 11:30 AM\nP5: 11:30 AM -> 12:15 PM\nBREAK 2: 12:15 PM -> 12:45 PM\nP6: 12:45 PM -> 1:30 PM\nQP SUPPORT: 1:30 PM -> 2:15 PM\nWednesday & Thursday:\nP1: 8:00 AM -> 8:45 AM\nP2: 8:45 AM -> 9:30 AM\nQP2: 8:45 AM -> 9:30 AM\nBREAK 1: 9:30 AM -> 10:00 AM\nP3: 10:00 AM -> 10:45 AM\nP4: 10:45 AM -> 11:30 AM\nP5: 11:30 AM -> 12:15 PM\nBREAK 2: 12:15 PM -> 12:45 PM\nP6: 12:45 PM -> 1:30 PM\nQP SUPPORT: 1:30 PM -> 2:15 PM\nFriday (Early Dismissal at 1:30 PM):\nP1: 8:00 AM -> 8:45 AM\nP2: 8:45 AM -> 9:30 AM\nBREAK 1: 9:30 AM -> 10:00 AM\nP3: 10:00 AM -> 10:45 AM\nP4: 10:45 AM -> 11:30 AM\nP5: 11:30 AM -> 12:15 PM\nBREAK 2: 12:15 PM -> 12:45 PM\nP6: 12:45 PM -> 1:30 PM\nPlease note that this schedule may vary during the school year based on specific events or holidays."
+                        ],
+                        "context": [
+                                ""
+                        ]
+                },
+                {
+                        "tag": "school_schedule",
+                        "patterns": [
+                                "What is the schedule for Wednesday?",
+                                "What is the schedule for Thursday?"
+                        ],
+                        "responses": [
+                                "The daily schedule at ISI is as follows: Wednesday & Thursday: \nP1: 8:00 AM -> 8:45 AM \nP2: 8:45 AM -> 9:30 AM \nQP2: 8:45 AM -> 9:30 AM \nBREAK 1: 9:30 AM -> 10:00 AM \nP3: 10:00 AM -> 10:45 AM \nP4: 10:45 AM -> 11:30 AM \nP5: 11:30 AM -> 12:15 PM \nBREAK 2: 12:15 PM -> 12:45 PM \nP6: 12:45 PM -> 1:30 PM \nQP SUPPORT: 1:30 PM -> 2:15 PM Please note that this schedule may vary during the school year based on specific events or holidays."
+                        ],
+                        "context": [
+                                ""
+                        ]
+                },
+                {
+                        "tag": "school_schedule",
+                        "patterns": [
+                                "What is the schedule for Monday",
+                                "What is the schedule for Tuesday"
+                        ],
+                        "responses": [
+                                "The daily schedule at ISI is as follows: Monday & Tuesday: \nP1: 8:00 AM -> 8:45 AM \nP2: 8:45 AM -> 9:30 AM \nQP1: 8:45 AM -> 9:30 AM \nBREAK 1: 9:30 AM -> 10:00 AM \nP3: 10:00 AM -> 10:45 AM \nP4: 10:45 AM -> 11:30 AM \nP5: 11:30 AM -> 12:15 PM \nBREAK 2: 12:15 PM -> 12:45 PM \nP6: 12:45 PM -> 1:30 PM \nQP SUPPORT: 1:30 PM -> 2:15 PM"
+                        ],
+                        "context": [
+                                ""
+                        ]
+                },
+                {
+                        "tag": "school_schedule",
+                        "patterns": [
+                                "What is the schedule for Fridays?"
+                        ],
+                        "responses": [
+                                "The friday schedule at ISI is as follows:\nFriday (Early Dismissal at 1:30\nP1: 8:00 AM -> 8:\nP2: 8:45 AM -> 9:\nBREAK 1: 9:30 AM -> 10:\nP3: 10:00 AM -> 10:\nP4: 10:45 AM -> 11:\nP5: 11:30 AM -> 12:\nBREAK 2: 12:15 PM -> 12:\nP6: 12:45 PM -> 1:30 PM Please note that this schedule may vary during the school year based on specific events or holidays."
+                        ],
+                        "context": [
+                                ""
+                        ]
+                },
+                {
+                        "tag": "worksheets_videos",
+                        "patterns": [
+                                "What are the resources for learning at ISI?"
+                        ],
+                        "responses": [
+                                "At ISI, students have access to various learning resources\nBi-weekly Review Worksheets in all major subjects\nVideo Summaries: Each major subject has a 10-15 minute video summary at the end of the week, summarizing the week's objectives\nLive Video Support Sessions: Teachers in respective grades conduct at least one ONLINE Live Video support session on the weekend before semester exams."
+                        ],
+                        "context": [
+                                ""
+                        ]
+                },
+                {
+                        "tag": "worksheets_videos",
+                        "patterns": [
+                                "Tell me about worksheets and videos at ISI."
+                        ],
+                        "responses": [
+                                "- Bi-weekly Review Worksheets in all major subjects."
+                        ],
+                        "context": [
+                                ""
+                        ]
+                },
+                {
+                        "tag": "worksheets_videos",
+                        "patterns": [
+                                "How do video summaries work?"
+                        ],
+                        "responses": [
+                                "- Video Summaries: Each major subject has a 10-15 minute video summary at the end of the week, summarizing the week's objectives."
+                        ],
+                        "context": [
+                                ""
+                        ]
+                },
+                {
+                        "tag": "worksheets_videos",
+                        "patterns": [
+                                "When are Live Video Support Sessions held?"
+                        ],
+                        "responses": [
+                                "- Live Video Support Sessions: Teachers in respective grades conduct at least one ONLINE Live Video support session on the weekend before semester exams."
+                        ],
+                        "context": [
+                                ""
+                        ]
+                },
+                {
+                        "tag": "homework_assignments",
+                        "patterns": [
+                                "What's the maximum number of homework assignments per day?",
+                                "How long should students spend on homework?"
+                        ],
+                        "responses": [
+                                "The number of homework assignments per day ranges from 2 to 4, depending on the grade level.- Lower grades should spend no more than 10 minutes on homework, while upper grades should range from 15 to 20 minutes."
+                        ],
+                        "context": [
+                                ""
+                        ]
+                },
+                {
+                        "tag": "homework_assignments",
+                        "patterns": [
+                                "Tell me about the homework schedule."
+                        ],
+                        "responses": [
+                                "Homework and assignments at ISI are managed as follows:",
+                                "- Students have a weekly homework (HW)/Quiz schedule, considering their grade level.",
+                                "- The number of homework assignments per day ranges from 2 to 4, depending on the grade level."
+                        ],
+                        "context": [
+                                ""
+                        ]
+                },
+                {
+                        "tag": "homework_assignments",
+                        "patterns": [
+                                "How is homework and assignments managed at ISI?"
+                        ],
+                        "responses": [
+                                "Homework and assignments at ISI are managed as follows:\nStudents have a weekly homework (HW)/Quiz schedule, considering their grade level.\nThe number of homework assignments per day ranges from 2 to 4, depending on the grade level.\nEnglish & Arabic Languages Subjects have DAILY homework for Grades 1-2-3.\nNo HW is given if students have a quiz to allow them to focus on studying for their quiz.\nLower grades should spend no more than 10 minutes on homework, while upper grades should range from 15 to 20 minutes."
+                        ],
+                        "context": [
+                                ""
+                        ]
+                },
+                {
+                        "tag": "promotion_conditions",
+                        "patterns": [
+                                "What are the promotion conditions at ISI?",
+                                "How are students promoted to the next grade?",
+                                "Which subjects are considered major subjects for promotion?"
+                        ],
+                        "responses": [
+                                "To be promoted at ISI, students must meet the following conditions:\nGet an overall yearly average of more than 50%.\nPass (get more than 50%) in all the major subjects.\nThe major subjects vary by grade level:\nGrades 1-6: English, Mathematics, and Arabic.\nGrades 7-12: English, Arabic, Mathematics, Physics, Chemistry, and Biology.\nIf a student earns below the passing rate in any of the three main subjects, they must complete a make-up exam in the summer and pass it to be promoted."
+                        ],
+                        "context": [
+                                ""
+                        ]
+                },
+                {
+                        "tag": "health_safety",
+                        "patterns": [
+                                "What are the health and safety measures at ISI?",
+                                "What happens in case of a health emergency?"
+                        ],
+                        "responses": [
+                                " In case of a health emergency beyond the nurse's abilities, the vice principal, parents, and injured student will be notified, and the student will be transferred to the nearest emergency room."
+                        ],
+                        "context": [
+                                ""
+                        ]
+                },
+                {
+                        "tag": "health_safety",
+                        "patterns": [
+                                "What happens in case of a health emergency?"
+                        ],
+                        "responses": [
+                                "It is advisable to inform the school nurse about any student's health conditions in person."
+                        ],
+                        "context": [
+                                ""
+                        ]
+                },
+                {
+                        "tag": "health_safety",
+                        "patterns": [
+                                "Tell me about the annual physical assessment.",
+                                "What happens in case of a health emergency?"
+                        ],
+                        "responses": [
+                                "- An annual basic physical assessment at the beginning of the school year, covering growth and development, visual acuity, dental cavities, and personal hygiene."
+                        ],
+                        "context": [
+                                ""
+                        ]
+                },
+                {
+                        "tag": "isi_cafeteria",
+                        "patterns": [
+                                "How can parents order meals for KGs and Cycle 1 students?"
+                        ],
+                        "responses": [
+                                "Parents of KG students and Cycle 1 can make weekly cafeteria orders using the mobile app. Orders must be submitted before every SUNDAY for the rest of the week."
+                        ],
+                        "context": [
+                                ""
+                        ]
+                },
+                {
+                        "tag": "isi_cafeteria",
+                        "patterns": [
+                                "Tell me about the cafeteria at ISI.",
+                                "What meal options are available at the cafeteria?",
+                                "How can parents order meals for KGs and Cycle 1 students?"
+                        ],
+                        "responses": [
+                                "The cafeteria at ISI offers the following meal options:\nHot meals for lunch starting from the first week of school. Contact the head of the department for assistance with hot meals.\nHealthy snacks available daily.\nTwo choices of juice or water for drinks.\nStudents are allowed to bring their own sandwiches or a bottle of water to school (please label the bottle with your child's name).",
+                                "Parents of KG students and Cycle 1 can make weekly cafeteria orders using the mobile app. Orders must be submitted before every SUNDAY for the rest of the week."
+                        ],
+                        "context": [
+                                ""
+                        ]
+                },
+                {
+                        "tag": "isi_cafeteria",
+                        "patterns": [
+                                "Tell me about the cafeteria at ISI.",
+                                "What meal options are available at the cafeteria?"
+                        ],
+                        "responses": [
+                                "The cafeteria at ISI offers the following meal options:\nHot meals for lunch starting from the first week of school. Contact the head of the department for assistance with hot meals.\nHealthy snacks available daily.\nTwo choices of juice or water for drinks.\nStudents are allowed to bring their own sandwiches or a bottle of water to school (please label the bottle with your child's name)."
+                        ],
+                        "context": [
+                                ""
+                        ]
+                },
+                {
+                        "tag": "isi_cafeteria",
+                        "patterns": [
+                                "How can parents order meals for KGs and Cycle 1 students?"
+                        ],
+                        "responses": [
+                                "Parents of KG students and Cycle 1 can make weekly cafeteria orders using the mobile app. Orders must be submitted before every SUNDAY for the rest of the week."
+                        ],
+                        "context": [
+                                ""
+                        ]
+                },
+                {
+                        "tag": "books_copybooks",
+                        "patterns": [
+                                "How are books and copybooks provided at ISI?",
+                                "Where do I get them?"
+                        ],
+                        "responses": [
+                                "ISI provides students with all copybooks FREE of charge."
+                        ],
+                        "context": [
+                                ""
+                        ]
+                },
+                {
+                        "tag": "books_copybooks",
+                        "patterns": [
+                                "When should parents purchase books for the academic year?",
+                                "do I need books? Where do I get them?"
+                        ],
+                        "responses": [
+                                "Students must bring the required books/workbooks for each school day as listed on their weekly class schedule. Failure to do so may result in a warning."
+                        ],
+                        "context": [
+                                ""
+                        ]
+                },
+                {
+                        "tag": "books_policies_procedures",
+                        "patterns": [
+                                "Can students bring tablets to school?",
+                                "Can I get a tablet to school?"
+                        ],
+                        "responses": [
+                                "Students with tablets are allowed to bring them to school if they have all their books installed and get approval from the Head of departmentParents are responsible for compensating for lost or damaged copybooks."
+                        ],
+                        "context": [
+                                ""
+                        ]
+                },
+                {
+                        "tag": "afterschool_clubs",
+                        "patterns": [
+                                "Tell me about afterschool clubs at ISI.",
+                                "What clubs are available for students?"
+                        ],
+                        "responses": [
+                                "ISI offers afterschool clubs and activities, which usually start in Semester 2.\nAvailable clubs include (but are not limited to): Ballet dancing, Singing, Ping-Pong, Zumba dancing, Basketball, Chess, Hip hop dancing, Football, Technology, Acting (drama), Running, French, Music, Karate, Mental Math (abacus).\nStudents can choose one afterschool club FREE OF CHARGE. Any extra clubs chosen must be paid for, and details will be sent to parents accordingly."
+                        ],
+                        "context": [
+                                ""
+                        ]
+                },
+                {
+                        "tag": "afterschool_clubs",
+                        "patterns": [
+                                "Are there any charges for afterschool clubs?"
+                        ],
+                        "responses": [
+                                "Students can choose one afterschool club FREE OF CHARGE. Any extra clubs chosen must be paid for, and details will be sent to parents accordingly."
+                        ],
+                        "context": [
+                                ""
+                        ]
+                },
+                {
+                        "tag": "new_subjects_initiatives",
+                        "patterns": [
+                                "What new subjects and initiatives are introduced at ISI?",
+                                "Tell me about applied sessions, innovation subject, and P.E. changes."
+                        ],
+                        "responses": [
+                                "ISI introduces new subjects and initiatives: \nApplied Sessions: Weekly applied challenges for students to apply concepts taught in Science, Technology, Engineering, and Math (STEM) challenges. \nInnovation Subject & Contest: Grades 7-12 students learn innovation based on the Stanford Design Thinking Model. The school hosts an innovation contest. \nP.E. Changes: Refined P.E. curriculum with well-defined metrics and objectives. Self Defense & Boxing classes added to P.E. Lessons."
+                        ],
+                        "context": [
+                                ""
+                        ]
+                },
+                {
+                        "tag": "new_subjects_initiatives",
+                        "patterns": [
+                                "Tell me about applied sessions, innovation subject, and P.E. changes."
+                        ],
+                        "responses": [
+                                "- P.E. Changes: Refined P.E. curriculum with well-defined metrics and objectives. Self Defense & Boxing classes added to P.E. Lessons."
+                        ],
+                        "context": [
+                                ""
+                        ]
+                },
+                {
+                        "tag": "ai_subject",
+                        "patterns": [
+                                "Tell me about the Artificial Intelligence (AI) subject at ISI.",
+                                "What do students learn in the AI subject?",
+                                "Who is the AI subject intended for?"
+                        ],
+                        "responses": [
+                                "As part of the new ISI curriculum, an Artificial Intelligence (AI) subject is taught to students in Grades 4-12.",
+                                "AI technology mimics human intelligence, allowing computers to learn from experience. Students learn to design, build, test, use, and update AI systems and technologies.As part of the new ISI curriculum, an Artificial Intelligence (AI) subject is taught to students in Grades 4-12.",
+                                "The AI subject is intended for students in Grades 4-12, providing them with valuable skills for the modern age."
+                        ],
+                        "context": [
+                                ""
+                        ]
+                },
+                {
+                        "tag": "ai_subject",
+                        "patterns": [
+                                "Tell me about the Artificial Intelligence (AI) subject at ISI."
+                        ],
+                        "responses": [
+                                "As part of the new ISI curriculum, an Artificial Intelligence (AI) subject is taught to students in Grades 4-12."
+                        ],
+                        "context": [
+                                ""
+                        ]
+                },
+                {
+                        "tag": "ai_subject",
+                        "patterns": [
+                                "What do students learn in the AI subject?"
+                        ],
+                        "responses": [
+                                "AI technology mimics human intelligence, allowing computers to learn from experience. Students learn to design, build, test, use, and update AI systems and technologies.As part of the new ISI curriculum, an Artificial Intelligence (AI) subject is taught to students in Grades 4-12."
+                        ],
+                        "context": [
+                                ""
+                        ]
+                },
+                {
+                        "tag": "ai_subject",
+                        "patterns": [
+                                "Who is the AI subject intended for?"
+                        ],
+                        "responses": [
+                                "The AI subject is intended for students in Grades 4-12, providing them with valuable skills for the modern age."
+                        ],
+                        "context": [
+                                ""
+                        ]
+                },
+                {
+                        "tag": "cleaning_day",
+                        "patterns": [
+                                "Tell me about Cleaning Day at ISI."
+                        ],
+                        "responses": [
+                                "Every classroom at ISI participates in Cleaning Day as part of our new school visionAwards (trophies) are given for Class of the Week based on cleanliness, organization, discipline, and other criteria..Classrooms work as a team to clean their classroom during the last 5 minutes of the school day, at least once a week."
+                        ],
+                        "context": [
+                                ""
+                        ]
+                },
+                {
+                        "tag": "cleaning_day",
+                        "patterns": [
+                                "What is Class of the Week?"
+                        ],
+                        "responses": [
+                                "Classrooms work as a team to clean their classroom during the last 5 minutes of the school day, at least once a week."
+                        ],
+                        "context": [
+                                ""
+                        ]
+                },
+                {
+                        "tag": "cleaning_day",
+                        "patterns": [
+                                "How do classrooms participate in cleaning?"
+                        ],
+                        "responses": [
+                                "Every classroom at ISI participates in Cleaning Day as part of our new school vision.Awards (trophies) are given for Class of the Week based on cleanliness, organization, discipline, and other criteria."
+                        ],
+                        "context": [
+                                ""
+                        ]
+                },
+                {
+                        "tag": "pe_smart_technology",
+                        "patterns": [
+                                "How is smart technology used in Physical Education at ISI?",
+                                "Tell me about the physical activity tracking system.",
+                                "What new additions are there in PE sessions?"
+                        ],
+                        "responses": [
+                                "Advanced smart watches are used to monitor student physical activity during and after sport classes.",
+                                "P.E. Teachers assess students' physical activity and stamina using the data collected.",
+                                "New additions to PE sessions include martial arts, self-defense, boxing, and more."
+                        ],
+                        "context": [
+                                ""
+                        ]
+                },
+                {
+                        "tag": "pe_smart_technology",
+                        "patterns": [
+                                "How is smart technology used in Physical Education at ISI?",
+                                "Tell me about the physical activity tracking system.",
+                                "What new additions are there in PE sessions?"
+                        ],
+                        "responses": [
+                                "Advanced smart watches are used to monitor student physical activity during and after sport classes P.E. Teachers assess students' physical activity and stamina using the data collected New additions to PE sessions include martial arts, self-defense, boxing, and more"
+                        ],
+                        "context": [
+                                ""
+                        ]
+                },
+                {
+                        "tag": "support_agenda_program",
+                        "patterns": [
+                                "What is the Support Program at ISI?",
+                                "Tell me about the Agenda program.",
+                                "How do Support Periods and Agenda Support work?",
+                                "How do Sp and mean?",
+                                "How do Sp and mean?When do we have them?",
+                                "what is QP?",
+                                "Qp"
+                        ],
+                        "responses": [
+                                "ISI offers a school support program for both low achievers and high achievers two days per week (Mondays & Wednesdays) during Support Periods (SPs). \nAgenda Support dedicates the last 10 minutes of subject periods to work on items on the agenda due the next day. \nSupport Periods focus on sample exercises and practice questions similar to those assessed in Quiz periods (QPs)."
+                        ],
+                        "context": [
+                                ""
+                        ]
+                },
+                {
+                        "tag": "events_agenda",
+                        "patterns": [
+                                "How can I find information about school events at ISI?",
+                                "Tell me about the school's calendar and events?",
+                                "What are some new school activities?"
+                        ],
+                        "responses": [
+                                "You can access an updated calendar with all school activities and events through our school app and by checking out the AGENDA \nNew additions to our school activities include Color Days, Spelling Bee, ISI Amazing Race, Halloween, Clothing Drive, Bake Sale, Cleaning Day, Math Day, and Science Fair \nEvent dates are tentative and may slightly change depending on official holidays, so make sure to check frequently for confirmed dates a week before."
+                        ],
+                        "context": [
+                                ""
+                        ]
+                },
+                {
+                        "tag": "academic_calendar",
+                        "patterns": [
+                                "What is the academic calendar for this year?",
+                                "Can you give me the school schedule for this year?",
+                                "Tell me about the important dates in the academic calendar."
+                        ],
+                        "responses": [
+                                "Sure, here is the academic calendar for this year at ISI:",
+                                "WEEKS ( Monday- Friday )\nTuesday/QP1 Thursday/QP2 QP # HOLIDAYS\nWEEK 1 Sep. 11-Sep. 15\n12-Sep 14-Sep Revision\nWEEK 2 Sep. 18 - Sep. 22\n19-Sep 21-Sep Revision\nWEEK 3 Sep.25- Sep.29\n26-Sep 28-Sep 1 Wed. Sep.27, Prophet Mohamad - عيد المولد النبوي الشريف\nWEEK 4 Oct.2 - Oct.6\n3-Oct 5-Oct 2\nWEEK 5 Oct. 9 - Oct.13\n10-Oct 12-Oct 3\nWEEK 6 Oct.16 - Oct. 20\n17-Oct 19-Oct 4\nWEEK 7 Oct.23- Oct. 27\n24-Oct 26-Oct 5\nWEEK 8 Oct . 30 - Nov.3\n31-Oct 2-Nov 6\nWEEK 9 Nov. 6- Nov.10\n7-Nov 9-Nov Exams Semester 1 Exams (Cycle 3&4 )\nWEEK 10 Nov. 13- Nov. 17\n14-Nov 16-Nov No QP\nWEEK 11 Nov.20- Nov. 24\n21-Nov 23-Nov 1 Wednesday, Nov, 22 Independence Day عيد الاستقلال\nWEEK 12 Nov. 27- Dec. 1\n28-Nov 30-Nov 2\nWEEK 13 Dec.4 - Dec.8\n5-Dec 7-Dec 3\nWEEK 14 Dec. 11- Dec. 15\n12-Dec 14-Dec 4\nWEEK 15 Dec. 18- Dec. 22\n19-Dec 21-Dec 5\nWEEK 16 Dec. 25 - Dec.29\n26-Dec 28-Dec Holiday Dec 23-Jan7 Christmas Holiday from Dec 23 -Jan 7 عطلة الميلاد ورأس السنة\nWEEK 17 Jan 1- Jan 5\n2-Jan 4-Jan\nWEEK 18 Jan 8- Jan 12\n9-Jan 11-Jan 6\nWEEK 19 Jan 15- Jan 19\n16-Jan 18-Jan Exams Semester 2 Exams\nWEEK 20 Jan 22- Jan 26\n23-Jan 25-Jan No QP\nWEEK 21 Jan 29- Feb. 2\n30-Jan 1-Feb 1\nWEEK 22 Feb. 5- Feb. 9\n6-Feb 8-Feb 2 Saturday, Feb,9 Maroun Day\nWEEK 23 Feb.12- 16\n13-Feb 15-Feb 3 Wednesday, Feb, 14 Holiday\nWEEK 24 Feb. 19- 23\n20-Feb 22-Feb 4\nWEEK 25 Feb 26- Mar.1\n27-Feb FEB,29 5\nWEEK 26 March 4 - 8\n5-Mar 7-Mar 6 Saturday, March ,9 Teacher's Day -\nWEEK 27 March 11- 15\n12-Mar 14-Mar Exams Semester 3 Exams (cycle 3&4)\nWEEK 28 March 18- 22\n19-Mar 21-Mar No Qp\nWEEK 29 March 25- 29\n26-Mar March 28 (OFF) No Qp Monday March ,25 Eid Thursday, March 28 Start of Easter Holiday\nWEEK 30 April 1- 5\n2-Apr 4-Apr 1 April 2 , End of Easter Holiday\nWEEK 31 April 8- 12\n9-Apr April ,11 (Off) 2 April 10,11,12 Eid Al Fotor\nWEEK 32 April 15- 19\n16-Apr 18-Apr 3\nWEEK 33 April 22- 26\n23-Apr 25-Apr 4\nWEEK 34 April 29-3\n30-Apr May,2 (Off) 5 Wednesday May 1 Labors Day Thursday May 2- Easter ( 2 )\nWEEK 35 May 6-10\n7-May 9-May No Qp Monday May 6, End of Easter\nWEEK 36 May 13- 17\n14-May 16-May Revision for Final Exams\nWEEK 37 May 20-24\n21-May 23-May Revision for Final Exams Saturday May 25, Liberation Day عيد المقاومة والتحرير\nWEEK 38 May 27-31\n28-May 30-May Final Exams (All Cycles )"
+                        ],
+                        "context": [
+                                ""
+                        ]
+                },
+                {
+                        "tag": "bus_information",
+                        "patterns": [
+                                "Bus fees",
+                                "Annual bus fees"
+                        ],
+                        "responses": [
+                                "Bus fees are annual and vary based on locations. Prices for this year are shown. Check with admin if your location is not listed."
+                        ],
+                        "context": [
+                                ""
+                        ]
+                },
+                {
+                        "tag": "bicycle_information",
+                        "patterns": [
+                                "can I get a bicycle to school?"
+                        ],
+                        "responses": [
+                                "Yes you can get bicyle"
+                        ],
+                        "context": [
+                                ""
+                        ]
+                },
+                {
+                        "tag": "bus_information",
+                        "patterns": [
+                                "Bus fees",
+                                "Annual bus fees",
+                                "How much are the bus fees?",
+                                "Bus transportation costs?",
+                                "Ain Baal Bus transportation costs?",
+                                "Al Housh Bus transportation costs?",
+                                "Qana Bus transportation costs?",
+                                "Hanawai Bus transportation costs?",
+                                "Sour Bus transportation costs?",
+                                "Burj El Shemaili Bus transportation costs?",
+                                "Beit Wlay Bus transportation costs?",
+                                "Al Bazzorieh Bus transportation costs?",
+                                "Mafraq Al Abbassieh Bus transportation costs?",
+                                "Aiteet Bus transportation costs?",
+                                "Tardebba Bus transportation costs?",
+                                "Al Esmaseih Bus transportation costs?"
+                        ],
+                        "responses": [
+                                " Here are the fees for different locations:\n\nAin Baal: $300.00 per year\nAl Housh: $350.00 per year\nQana: $350.00 per year\nHanawai: $350.00 per year\nSour: $400.00 per year\nBurj El Shemaili: $400.00 per year\nBeit Wlay: $400.00 per year\nAl Bazzorieh: $400.00 per year\nMafraq Al Abbassieh: $450.00 per year\nAiteet: $450.00 per year\nTardebba: $500.00 per year\nAl Esma3eih: $500.00 per year"
+                        ],
+                        "context": [
+                                ""
+                        ]
+                },
+                {
+                        "tag": "technology_usage",
+                        "patterns": [
+                                "Technology usage",
+                                "Electronic devices at ISI"
+                        ],
+                        "responses": [
+                                "ISI has rules for using electronic devices and Tech. resources in ISI \nStudents are responsible for exercising good judgment regarding usage NOT to be used for any unlawful or prohibited purpose \nFor security & compliance purposes, authorized personnel may monitor and audit equipment, systems, and network traffic \nDevices that interfere with other devices on the school network will be disconnected and appropriate penalties will be applied \nStudents are responsible for maintaining the security of passwords, accounts, and systems \nUse of the Internet or any installed app or software is only allowed with school supervisor permission \nStudents can NOT copy or share any software or e-book installed on their electronic device without official school permission."
+                        ],
+                        "context": [
+                                ""
+                        ]
+                },
+                {
+                        "tag": "technology_usage",
+                        "patterns": [
+                                "Security of passwords"
+                        ],
+                        "responses": [
+                                "Students are responsible for maintaining the security of passwords, accounts, and systems."
+                        ],
+                        "context": [
+                                ""
+                        ]
+                },
+                {
+                        "tag": "technology_usage",
+                        "patterns": [
+                                "Internet usage policy",
+                                "Interfering devices",
+                                "Using the Internet"
+                        ],
+                        "responses": [
+                                "For security & compliance purposes, authorized personnel may monitor and audit equipment, systems, and network traffic."
+                        ],
+                        "context": [
+                                ""
+                        ]
+                },
+                {
+                        "tag": "technology_usage",
+                        "patterns": [
+                                "Permission for apps or software",
+                                "Sharing software or e-books"
+                        ],
+                        "responses": [
+                                "Use of the Internet or any installed app or software is only allowed with school supervisor permission.\nStudents can NOT copy or share any software or e-book installed on their electronic device without official school permission."
+                        ],
+                        "context": [
+                                ""
+                        ]
+                },
+                {
+                        "tag": "student_council",
+                        "patterns": [
+                                "Student council at ISI",
+                                "Responsibilities of student council",
+                                "Student representatives",
+                                "Student council activities",
+                                "Safety monitors",
+                                "Grade representatives"
+                        ],
+                        "responses": [
+                                "The student council at ISI is voted by the students and officially represents all the students in their Grade sections.\nThey propose activities to the school administration that would improve the quality of life at school.\nThey organize financial campaigns for live activities at school.\nThey maintain good relations with staff and meet with other student council members.\nThey identify the floor needs and problems and monitor & report discipline and other students’ misconduct.\nThey also assign student supervisors (Safety Monitors) once every month."
+                        ],
+                        "context": [
+                                ""
+                        ]
+                },
+                {
+                        "tag": "parent_council",
+                        "patterns": [
+                                "Parent council at ISI",
+                                "Responsibilities of parent council",
+                                "Parent representatives",
+                                "Parent council plans",
+                                "Working with school administration",
+                                "Assisting with the annual budget"
+                        ],
+                        "responses": [
+                                "The parent council at ISI is voted by the parents and officially represents all the parents in raising concerns or compliments.",
+                                "They develop plans that aim at improving learners’ educational journey, academic performance, safety measures, hygiene and cleanliness, relation with teachers, behaviors/values & social services.",
+                                "They encourage other parents to become more involved in their child’s school experience and work with the school administration towards implementing projects that will improve the school facilities and buildings.",
+                                "They also assist the school with the annual budget and make recommendations."
+                        ],
+                        "context": [
+                                ""
+                        ]
+                },
+                {
+                        "tag": "community_service",
+                        "patterns": [
+                                "Importance of community service",
+                                "Benefits of community service",
+                                "Community engagement at ISI",
+                                "Empowerment of students",
+                                "Community service activities"
+                        ],
+                        "responses": [
+                                "Community service at ISI helps students conceptualize the world as a complex, dynamic, and interconnected system \n Engaging with various levels of the community around them helps students practice being more conscientious, compassionate, and kind \n It gives students the opportunity to see the positive change they can create in our world \n ISI focuses on the empowerment of students, which includes a social component \n ISI will further enhance its community engagement activities this year."
+                        ],
+                        "context": [
+                                ""
+                        ]
+                },
+                {
+                        "tag": "staff_roles1",
+                        "patterns": [
+                                "Who is Prof. Mohamed Watfa",
+                                "the Principal & CEO?",
+                                "Tell me about Prof. Mohamed Watfa's role as the Principal & CEO."
+                        ],
+                        "responses": [
+                                "Prof. Mohamed Watfa is the Principal & CEO."
+                        ],
+                        "context": [
+                                ""
+                        ]
+                },
+                {
+                        "tag": "staff_roles2",
+                        "patterns": [
+                                "Who is maya Othman?",
+                                "maya Othman",
+                                "Vice Principal?",
+                                "vp"
+                        ],
+                        "responses": [
+                                "Mrs. Maya Othman is the Vice Principal."
+                        ],
+                        "context": [
+                                ""
+                        ]
+                },
+                {
+                        "tag": "staff_roles3",
+                        "patterns": [
+                                "Who is Salwa el Kharsa?",
+                                "Salwa el Kharsa",
+                                "Kindergarten Head?",
+                                "Tell me about Mrs. Salwa el Kharsa's role as the Kindergarten Head.",
+                                "kh"
+
+                        ],
+                        "responses": [
+                                "Mrs. Salwa el Kharsa is the Kindergarten Head."
+                        ],
+                        "context": [
+                                ""
+                        ]
+                },
+                {
+                        "tag": "staff_roles4",
+                        "patterns": [
+                                "Who is Asmaa Aisha?",
+                                "Asmaa Aisha",
+                                "Elementary Head?",
+                                "eh"
+                        ],
+                        "responses": [
+                                "Mrs. Asmaa Aisha is the Elementary Head."
+                        ],
+                        "context": [
+                                ""
+                        ]
+                },
+                {
+                        "tag": "staff_roles5",
+                        "patterns": [
+                                "Who is Munir Adawi?",
+                                "Munir Adawi",
+                                "Middle & Highschool Supervisor?",
+                                "Highschool Supervisor?",
+                                "Highschool Supervisor?",
+                                "hs",
+                                "ms"
+                        
+                        ],
+                        "responses": [
+                                "Mr. Munir Adawi is the Middle & Highschool Supervisor."
+
+                        ],
+                        "context": [
+                                ""
+                        ]
+                },
+                {
+                        "tag": "staff_roles6",
+                        "patterns": [
+                                "Who is Miss Ashwaq Malwa-AlAin?",
+                                "Ashwaq Malwa-AlAin",
+                                "Kindergarten Supervisor?",
+                                "Tell me about Miss Ashwaq Malwa-AlAin's role as the Kindergarten Supervisor.",
+                                "ks"
+                        ],
+                        "responses": [
+                                "Miss Ashwaq Malwa-AlAin is the Kindergarten Supervisor."
+                        ],
+                        "context": [
+                                ""
+                        ]
+                },
+                {
+                        "tag": "staff_roles7",
+                        "patterns": [
+                                "Who is Miss Susana Jaafar?",
+                                "Susana Jaafar",
+                                "Middle & Highschool Supervisor and F.S. Coordinator?",
+                                "F.S Coordinator?",
+                                "Fs",
+                                "Tell me about Susana Jaafar's role as the Middle & Highschool Supervisor and F.S. Coordinator."
+                        ],
+                        "responses": [
+                                "Miss Susana Jaafar is the Middle & Highschool Supervisor and F.S. Coordinator."
+                        ],
+                        "context": [
+                                ""
+                        ]
+                },
+                {
+                        "tag": "staff_roles8",
+                        "patterns": [
+                                "Who is Miss Dina Khalaf",
+                                "Dina Khalaf",
+                                "Elementary Supervisor?",
+                                "Tell me about Miss Dina Khalaf's role as the Elementary Supervisor.",
+                                "es"
+                        ],
+                        "responses": [
+                                "Miss Dina Khalaf is the Elementary Supervisor."
+                        ],
+                        "context": [
+                                ""
+                        ]
+                },
+                {
+                        "tag": "staff_roles9",
+                        "patterns": [
+                                "Who is Siham Awally?",
+                                "Siham Awally?",
+                                "Activities Coordinator?",
+                                "Ac",
+                                "Tell me about Miss Siham Awally's role as the Activities Coordinator."
+                        ],
+                        "responses": [
+                                "Miss Siham Awally is the Activities Coordinator."
+                        ],
+                        "context": [
+                                ""
+                        ]
+                },
+                {
+                        "tag": "subject_coordinators1",
+                        "patterns": [
+                                "rafif fakih",
+                                "Who is rafif fakih?",
+                              
+                                
+                                "English Coordinator"
+                        ],
+                        "responses": [
+                                "Mrs. Rafif Fakih is the English Coordinator."
+                        ],
+                        "context": [
+                                ""
+                        ]
+                },
+                {
+                        "tag": "subject_coordinators2",
+                        "patterns": [
+                                "Manal Yehya",
+                                "Math/Logic Coordinator",
+                                "Who is Manal Yehya ",
+                                "Who is Math/Logic Coordinator"
+                        ],
+                        "responses": [
+                                "Mrs. Manal Yehya is the Math/Logic Coordinator."
+                        ],
+                        "context": [
+                                ""
+                        ]
+                },
+                {
+                        "tag": "subject_coordinators22",
+                        "patterns": [
+                                "Amena ajami",
+                                "Arabic Coordinator",
+                                "Who is Amena ajami",
+                                "Who is Arabic Coordinator"
+                        ],
+                        "responses": [
+                                "Mrs. Manal Yehya is the Arabic Coordinator"
+                        ],
+                        "context": [
+                                ""
+                        ]
+                },
+                {
+                        "tag": "subject_coordinators3",
+                        "patterns": [
+                                "Prof. Mohamed Watfa",
+                                "Innovation & Technology Coordinator"
+                        ],
+                        "responses": [
+                                "Prof. Mohamed Watfa is the Principal ISI. also coordinator is the Innovation & Technology Coordinator."
+                        ],
+                        "context": [
+                                ""
+                        ]
+                },
+                {
+                        "tag": "subject_coordinators4",
+                        "patterns": [
+                                "Munir Adawi",
+                                "Who is Munir Adawi ",
+                                "Chemistry Coordinator"
+
+                        ],
+                        "responses": [
+                                "Mr. Munir Adawi is the Chemistry Coordinator."
+                        ],
+                        "context": [
+                                ""
+                        ]
+                },
+                {
+                        "tag": "subject_coordinators5",
+                        "patterns": [
+                                "Zeina Al Yousef",
+                                "Who is Zeina Al Yousef?",
+                                "Science Coordinator"
+                        ],
+                        "responses": [
+                                "Miss Zeina Al Yousef is the Science Coordinator."
+                        ],
+                        "context": [
+                                ""
+                        ]
+                },
+                {
+                        "tag": "subject_coordinators6",
+                        "patterns": [
+                                "Faten Fardoun",
+                                "Who is Faten Fardoun?",
+                                "Biology Coordinator"
+
+                        ],
+                        "responses": [
+                                "Miss Faten Fardoun is the Biology Coordinator."
+                        ],
+                        "context": [
+                                ""
+                        ]
+                },
+                {
+                        "tag": "subject_coordinators7",
+                        "patterns": [
+                                "Bassem Basma",
+                                "Who is Bassem Basma?",
+                                "Social Sciences Coordinator"
+                        ],
+                        "responses": [
+                                "Mr. Bassem Basma is the Social Sciences Coordinator."
+                        ],
+                        "context": [
+                                ""
+                        ]
+                },
+                {
+                        "tag": "subject_coordinators8",
+                        "patterns": [
+                                "Susana Jaafar",
+                                "Who is Susana Jaafar?",
+                                "FS Coordinator"
+                        ],
+                        "responses": [
+                                "Mrs. Susana Jaafar is the FS Coordinator."
+                        ],
+                        "context": [
+                                ""
+                        ]
+                },
+                {
+                        "tag": "subject_coordinators8",
+                        "patterns": [
+                                "Susana Jaafar",
+                                "Who is Susana Jaafar?",
+                                "FS Coordinator"
+                        ],
+                        "responses": [
+                                "Mrs. Susana Jaafar is the FS Coordinator."
+                        ],
+                        "context": [
+                                ""
+                        ]
+                },
+                {
+                        "tag": "holidaysa_days",
+                        "patterns": [
+                                "Prophet Mohamad",
+                                "Prophet",
+                                "sep 27"
+
+                                
+                        ],
+                        "responses": [
+                                "Wed. Sep.27, Prophet Mohamad - عيد المولد النبوي الشريف Holiday "  
+                        ],
+                        "context": [
+                                ""
+                        ]
+                },
+                {
+                        "tag": "holidaysa_days1",
+                        "patterns": [
+                                "when is Semester 1 Exams?",
+                                "when is Semester 1 Exams of Cycle 3 and 4?",
+                                "Semester 1 Exams",
+                                "Nov. 6",
+                                "Nov.10" ,
+                                "WEEK 9"
+
+                                
+                        ],
+                        "responses": [
+                                "WEEK 9 Nov. 6- Nov.10"  
+                        ],
+                        "context": [
+                                ""
+                        ]
+                },
+                {
+                        "tag": "holidaysa_days2",
+                        "patterns": [
+                                "Independence Day",
+                                "Nov 22"
+
+
+                                
+                        ],
+                        "responses": [
+                                "Wednesday, Nov, 22 Independence Day عيد الاستقلال"  
+                        ],
+                        "context": [
+                                ""
+                        ]
+                },
+                {
+                        "tag": "holidaysa_days3",
+                        "patterns": [
+                                "Christmas Holiday",
+                                "Dec 23",
+                                "jan 7",
+                                "Christmas"
+
+
+                                
+                        ],
+                        "responses": [
+                                "Christmas Holiday from Dec 23 -Jan 7 عطلة الميلاد ورأس السنة"  
+                        ],
+                        "context": [
+                                ""
+                        ]
+                },
+                {
+                        "tag": "holidaysa_days3",
+                        "patterns": [
+                                "Christmas Holiday",
+                                "Dec 23",
+                                "jan 7",
+                                "Christmas"
+
+
+                                
+                        ],
+                        "responses": [
+                                "Semester 2 Exams WEEK 19 Jan 15- Jan 19"
+                        ],
+                        "context": [
+                                ""
+                        ]
+                },
+                {
+                        "tag": "holidaysa_days4",
+                        "patterns": [
+                                "when is Semester 2 Exams?",
+                                "when midterm exams?",
+                                "Semester 2 Exams",
+                                "Jan 19",
+                                "Jan 15" ,
+                                "WEEK 19"
+
+                                
+                        ],
+                        "responses": [
+                                "WEEK 19 Jan 15- Jan 19 Semester 2 Exams"  
+                        ],
+                        "context": [
+                                ""
+                        ]
+                },
+                {
+                        "tag": "holidaysa_days5",
+                        "patterns": [
+                                "when is Maroun Day?",
+                                "Maroun Day",
+                                "Feb 9"
+
+                                
+                        ],
+                        "responses": [
+                                "Saturday,Feb,9 Maroun Day"  
+                        ],
+                        "context": [
+                                ""
+                        ]
+                },
+                {
+                        "tag": "holidaysa_days6",
+                        "patterns": [
+                                
+                                "Feb 14"
+
+                                
+                        ],
+                        "responses": [
+                                "Wednesday, Feb, 14 Holiday" 
+                        ],
+                        "context": [
+                                ""
+                        ]
+                },
+                {
+                        "tag": "holidaysa_days7",
+                        "patterns": [
+                                
+                                "when is Teacher's Day",
+                                "when is Teachers Day",
+                                "Teacher Day",
+                                "march 9"
+
+                                
+                        ],
+                        "responses": [
+                                "Saturday, March ,9 Teacher's Day" 
+                        ],
+                        "context": [
+                                ""
+                        ]
+                },
+                {
+                        "tag": "holidaysa_days7",
+                        "patterns": [
+                                
+                                "when is Teacher's Day",
+                                "when is Teachers Day",
+                                "Teacher Day",
+                                "march 9"
+
+                                
+                        ],
+                        "responses": [
+                                "Saturday, March ,9 Teacher's Day" 
+                        ],
+                        "context": [
+                                ""
+                        ]
+                },
+                {
+                        "tag": "holidaysa_days8",
+                        "patterns": [
+                                "when is Semester 3 Exams?",
+                                "when is Semester 3 Exams of Cycle 3 and 4?",
+                                "Semester 3 Exams",
+                                "March 11",
+                                "March 5" ,
+                                "WEEK 27"
+
+                                
+                        ],
+                        "responses": [
+                                "WEEK 27 March 11- 15"  
+                        ],
+                        "context": [
+                                ""
+                        ]
+                },
+                {
+                        "tag": "holidaysa_days10",
+                        "patterns": [
+                                "when is Easter Holiday?",
+                                "Easter Holiday",
+                                "March 28",
+                                "March 25" 
+
+                                
+                        ],
+                        "responses": [
+                                "Monday March ,25 Eid Thursday, March 28 Start of Easter Holiday"  
+                        ],
+                        "context": [
+                                ""
+                        ]
+                },
+                {
+                        "tag": "holidaysa_days11",
+                        "patterns": [
+                                "when is Easter Holiday?",
+                                "Easter Holiday",
+                                "March 28",
+                                "March 25",
+                                "April 2 , End of Easter Holiday" 
+                                
+
+                                
+                        ],
+                        "responses": [
+                                "Monday March ,25 Eid Thursday, March 28 Start of Easter Holiday April 2 , End of Easter Holiday  "  
+                        ],
+                        "context": [
+                                ""
+                        ]
+                },
+                {
+                        "tag": "holidaysa_days12",
+                        "patterns": [
+                                "when is Eid Al Fotor ?",
+                                "Eid Al Fotor ",
+                                "april 10",
+                                "april 11",
+                                "april 12"
+                                
+
+                                
+                        ],
+                        "responses": [
+                                "April 10,11,12 Eid Al Fotor                                 "  
+                        ],
+                        "context": [
+                                ""
+                        ]
+                }
+                ,
+                {
+                        "tag": "holidaysa_days14",
+                        "patterns": [
+                                "when is Labors Day ?",
+                                "Labors Day ?",
+                                "May 1"
+
+
+                                
+
+                                
+                        ],
+                        "responses": [
+                                "Wednesday May 1 Labors Day Thursday May 2- Easter ( 2 )"  
+                        ],
+                        "context": [
+                                ""
+                        ]
+                }
+                ,
+                {
+                        "tag": "holidaysa_days162",
+                        "patterns": [
+                                "when is Liberation Day?",
+                                "Liberation Day",
+                                "May 25"
+
+
+                                
+
+                                
+                        ],
+                        "responses": [
+                                "Saturday May 25, Liberation Day عيد المقاومة والتحرير                                 "  
+                        ],
+                        "context": [
+                                ""
+                        ]
+                },
+                {
+                        "tag": "holidaysa_days15",
+                        "patterns": [
+                                "when is Liberation Day?",
+                                "Liberation Day",
+                                "May 27",
+                                "May 31"
+                                
+
+
+                                
+
+                                
+                        ],
+                        "responses": [
+                                "WEEK 38 May 27-31                                 "  
+                        ],
+                        "context": [
+                                ""
+                        ]
+                },
+                {
+                        "tag": "holidaysa_days45",
+                        "patterns": [
+                                "when is Semester final Exams?",
+                               "final Exams?",
+                                "Semester final Exams",
+                                "may 27",
+                                "Jan 31" ,
+                                "WEEK 38 "
+
+                                
+                        ],
+                        "responses": [
+                                "WEEK 38 May 27-31                                 "  
+                        ],
+                        "context": [
+                                ""
+                        ]
+                }
+
+        ]
+}
